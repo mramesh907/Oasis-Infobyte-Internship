@@ -11,7 +11,6 @@ public class Game {
     public void generateNumber() {
         Random random = new Random();
         generateNumber = random.nextInt(100);
-        System.out.println("Number Generated." + generateNumber);
     }
 
     public void userInput() {
